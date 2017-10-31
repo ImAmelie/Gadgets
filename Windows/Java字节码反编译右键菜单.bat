@@ -6,7 +6,7 @@ reg add "HKCR\.class\shell\javap(J)\Command" /ve /t REG_EXPAND_SZ /d "wscript \"
 echo 建立"Java字节码反编译"右键菜单成功！3秒后本窗口自动关闭
 ping -n 3 0 >nul
 
-::	作者: Amelie 
-::	提示: 同时选中多个.class文件,按Menu键(右Ctrl左侧)之后再按J键,同时反编译多个.class文件
-::	有bug请联络作者
-::	依赖程序:JDK
+:: 作者: Amelie 
+:: 提示: 同时选中多个.class文件,按Menu键(右Ctrl左侧)之后再按J键,同时反编译多个.class文件
+:: 有bug请联络作者
+:: 依赖程序:JDK
